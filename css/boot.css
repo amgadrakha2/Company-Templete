@@ -124,9 +124,7 @@ margin-top: 17px;
 /*media query*/
 
 @media (max-width: 500px) {
-    .mynav{
-        margin-top: 15px !important;
-    }
+    
     .myh h1 {
       font-size: 39px !important;
     }
