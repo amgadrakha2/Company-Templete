@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+}
+@font-face
+{
+    font-family: 'Montserrat';
+    src: url('../webfonts/monstrate/Montserrat-Regular.ttf');
+}
+@font-face
+{
+    font-family: 'lito';
+    src: url('../webfonts/Lato/Lato-Bold.ttf');
+}
+body{
+    position: relative;
+}
+:root{
+    --colorone:#f4511e;
+}
+.coll{
+    color:  var(--colorone)!important;
+}
+.mycolor{
+    background-color: var(--colorone)!important;
+}
+/* start navbar */
+.mynav
+{
+    letter-spacing: 2px !important;
+    z-index: 99999999999999999;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+.nav-link{
+    color: rgba(255, 255, 255, 1)!important;
+    line-height: 2;
+}
+ .nav-link.active{
+    background-color: white !important;
+    color: var(--colorone) !important;
+}
+/* end navbar */
+/*star header*/
+header{
+    font-family: 'Montserrat';
+}
+
+/*star article*/
+article
+{
+    font-family: 'lito';
+}
+div .chart
+{
+    color:var(--colorone);
+    font-size: 195px;
+}
+
+article div div button:hover{
+    background-color: #c1c1c1;
+}
+/*start of services*/
+.serv{
+    font-family: 'lito';
+}
+.icon
+{
+    font-size: 50px;
+    color: var(--colorone);
+/*start proto*/
+}
+.proto{
+    font-family: 'lito';
+}
+img{
+    width: 100%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-image: none;
+}
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon
+{
+   filter: none;
+}
+.carousel-dark .carousel-indicators [data-bs-target]
+{
+    background-color: #f4511e !important;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+/*start prices*/
+.myprices{
+    font-family: 'lito';
+}
+.panel-heading{
+    background-color: var(--colorone);
+}
+.divborder{
+    border: 1px solid var(--colorone);
+
+}
+.panel-footer .mybutt
+{
+    background-color: var(--colorone);
+    
+}
+.panel-footer .mybutt:hover
+{
+    background-color: white;
+    color: var(--colorone) !important;
+
+    border: 1px solid var(--colorone);
+    
+}
+.mybt{
+float: right;
+margin-top: 17px;
+}
+.up a{
+    color: var(--colorone);
+}
+/*media query*/
+
+@media (max-width: 500px) {
+    .mynav{
+        margin-top: 15px !important;
+    }
+    .myh h1 {
+      font-size: 39px !important;
+    }
+    .myh p {
+        font-size: 10px !important;
+      }
+    .myh div{
+        width: 100%!important;
+    }
+    .myh div .emailh{
+        padding: 5px;
+        width: 80%;
+        height:30px;
+        font-size: small;
+    }
+    .myh div .btnh{
+        margin-left: auto !important;
+        margin-right: auto;
+        font-size: small;
+    }
+    .about h4{
+        font-size: 20px;
+        padding-top: 0;
+    }
+    .about p{
+        font-size: 14px;
+    }
+    .about span{
+        font-size: 16px !important;
+    }
+    div .chart {
+        font-size: 135px;
+        text-align: center;
+    }    
+    
+    .carousel-inner h5{
+        font-size: 1rem !important;
+    }
+    .carousel-inner{
+        font-size: 12px;
+    }
+    .contact{
+        font-size: xx-small;
+    }
+    .form-control{
+        font-size: 0.75rem;
+    }
+
+}
+  
+
